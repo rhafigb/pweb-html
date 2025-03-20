@@ -1,0 +1,1201 @@
+.MOCKUP-DESKTOP {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.MOCKUP-DESKTOP .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 7601px;
+  position: relative;
+}
+
+.MOCKUP-DESKTOP .NAVBAR {
+  display: flex;
+  width: 1360px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 27px;
+  left: 40px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .navbar {
+  display: inline-flex;
+  align-items: center;
+  gap: 61px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-2 {
+  position: relative;
+  width: 46px;
+  margin-top: -1.00px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .HOME {
+  position: absolute;
+  width: 1071px;
+  height: 498px;
+  top: 155px;
+  left: 185px;
+}
+
+.MOCKUP-DESKTOP .frame {
+  display: flex;
+  flex-direction: column;
+  width: 678px;
+  align-items: flex-start;
+  gap: 19px;
+  position: absolute;
+  top: 139px;
+  left: 393px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .saya-adalah-seorang {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .jelajahi-portofolio {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2.00px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .mingcute-arrow-right {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.MOCKUP-DESKTOP .frame-2 {
+  position: absolute;
+  width: 238px;
+  height: 498px;
+  top: 0;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .overlap {
+  position: absolute;
+  width: 238px;
+  height: 447px;
+  top: -1px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .overlap-group {
+  position: absolute;
+  width: 176px;
+  height: 282px;
+  top: 0;
+  left: 62px;
+}
+
+.MOCKUP-DESKTOP .rectangle {
+  position: absolute;
+  width: 115px;
+  height: 100px;
+  top: 135px;
+  left: 0;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-6 {
+  width: 282px;
+  height: 41px;
+  top: 120px;
+  left: 14px;
+  transform: rotate(-90deg);
+  font-family: "Michroma-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: justify;
+  white-space: nowrap;
+  position: absolute;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .overlap-2 {
+  position: absolute;
+  width: 177px;
+  height: 282px;
+  top: 150px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .img {
+  position: absolute;
+  width: 115px;
+  height: 100px;
+  top: 90px;
+  left: 62px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-7 {
+  position: absolute;
+  width: 282px;
+  height: 41px;
+  top: 120px;
+  left: -120px;
+  transform: rotate(-90deg);
+  font-family: "Michroma-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MOCKUP-DESKTOP .rectangle-2 {
+  position: absolute;
+  width: 115px;
+  height: 100px;
+  top: 347px;
+  left: 62px;
+}
+
+.MOCKUP-DESKTOP .line {
+  position: absolute;
+  width: 124px;
+  height: 2px;
+  top: 69px;
+  left: 5px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-8 {
+  position: absolute;
+  height: 14px;
+  top: 484px;
+  left: 37px;
+  font-family: "Maven Pro-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MOCKUP-DESKTOP .ABOUT {
+  position: absolute;
+  width: 1193px;
+  height: 654px;
+  top: 879px;
+  left: 124px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-9 {
+  position: absolute;
+  top: -1px;
+  left: 467px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .p {
+  position: absolute;
+  width: 665px;
+  height: 120px;
+  top: 108px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-10 {
+  position: absolute;
+  width: 734px;
+  top: 533px;
+  left: 459px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .rectangle-3 {
+  position: absolute;
+  width: 258px;
+  height: 258px;
+  top: 168px;
+  left: 898px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .rectangle-4 {
+  position: absolute;
+  width: 258px;
+  height: 258px;
+  top: 390px;
+  left: 116px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .KEAHLIAN {
+  position: absolute;
+  width: 857px;
+  height: 717px;
+  top: 1978px;
+  left: 291px;
+}
+
+.MOCKUP-DESKTOP .rectangle-5 {
+  position: absolute;
+  width: 138px;
+  height: 138px;
+  top: 217px;
+  left: 723px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .rectangle-6 {
+  position: absolute;
+  width: 138px;
+  height: 138px;
+  top: 393px;
+  left: 723px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .rectangle-7 {
+  position: absolute;
+  width: 138px;
+  height: 138px;
+  top: 581px;
+  left: 723px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 614px;
+  align-items: flex-start;
+  position: absolute;
+  top: 220px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-11 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-12 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 581px;
+  align-items: flex-start;
+  position: absolute;
+  top: 404px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .frame-5 {
+  display: flex;
+  flex-direction: column;
+  width: 626px;
+  align-items: flex-start;
+  gap: 7px;
+  position: absolute;
+  top: 578px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-13 {
+  position: absolute;
+  width: 178px;
+  top: -1px;
+  left: 339px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .MENGAPA {
+  position: absolute;
+  width: 1173px;
+  height: 846px;
+  top: 2949px;
+  left: 134px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-14 {
+  position: absolute;
+  height: 36px;
+  top: 160px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-15 {
+  position: absolute;
+  top: -1px;
+  left: 282px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .pengalaman-keahlian {
+  position: absolute;
+  width: 1035px;
+  height: 335px;
+  top: 268px;
+  left: 138px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .span {
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-16 {
+  font-size: 16px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-17 {
+  position: absolute;
+  width: 537px;
+  height: 48px;
+  top: 710px;
+  left: 636px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .frame-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 28px;
+  position: absolute;
+  top: 801px;
+  left: 886px;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .consultation {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.MOCKUP-DESKTOP .rectangle-8 {
+  position: absolute;
+  width: 108px;
+  height: 108px;
+  top: 269px;
+  left: -4px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .rectangle-9 {
+  position: absolute;
+  width: 108px;
+  height: 108px;
+  top: 397px;
+  left: -4px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .rectangle-10 {
+  position: absolute;
+  width: 108px;
+  height: 108px;
+  top: 525px;
+  left: -4px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .TESTIMONI-CLIENT {
+  position: absolute;
+  width: 1357px;
+  height: 822px;
+  top: 4257px;
+  left: 43px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-18 {
+  position: absolute;
+  top: -1px;
+  left: 520px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .kami-sangat-terkesan {
+  position: absolute;
+  width: 903px;
+  top: 127px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .pelayanan-yang {
+  position: absolute;
+  width: 896px;
+  top: 677px;
+  left: 459px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .GEBE-memberikan {
+  position: absolute;
+  width: 900px;
+  top: 496px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .kualitas-pekerjaan {
+  position: absolute;
+  width: 900px;
+  top: 315px;
+  left: 457px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .PORTFOLIO {
+  position: absolute;
+  width: 680px;
+  height: 402px;
+  top: 5415px;
+  left: 376px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-19 {
+  position: absolute;
+  top: -1px;
+  left: 270px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: 125px;
+  position: absolute;
+  top: 130px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .figma {
+  position: relative;
+  width: 158px;
+  height: 158px;
+  margin-bottom: -8.00px;
+  margin-left: -4.00px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .laravel-framework {
+  position: relative;
+  width: 138px;
+  height: 138px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .react-native {
+  position: relative;
+  width: 158px;
+  height: 158px;
+  margin-bottom: -8.00px;
+  margin-right: -4.00px;
+  object-fit: cover;
+}
+
+.MOCKUP-DESKTOP .frame-8 {
+  position: absolute;
+  width: 680px;
+  height: 81px;
+  top: 321px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .frame-9 {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+  gap: 27px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-20 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .div-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-21 {
+  position: absolute;
+  top: 3px;
+  left: 15px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .frame-10 {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 73px;
+  align-items: center;
+  gap: 21px;
+  position: absolute;
+  top: 4px;
+  left: 265px;
+}
+
+.MOCKUP-DESKTOP .frame-11 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 30px;
+  margin-bottom: -2.00px;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .frame-12 {
+  position: absolute;
+  width: 150px;
+  height: 76px;
+  top: 2px;
+  left: 530px;
+}
+
+.MOCKUP-DESKTOP .frame-13 {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  top: 46px;
+  left: 0;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-22 {
+  position: absolute;
+  top: -1px;
+  left: 23px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .KONTAK {
+  position: absolute;
+  width: 969px;
+  height: 779px;
+  top: 6180px;
+  left: 270px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-23 {
+  width: 431px;
+  top: -1px;
+  left: 387px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 36px;
+  position: absolute;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .frame-14 {
+  position: absolute;
+  width: 431px;
+  height: 686px;
+  top: 93px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-24 {
+  position: absolute;
+  width: 431px;
+  top: -1px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .rectangle-11 {
+  position: absolute;
+  width: 431px;
+  height: 40px;
+  top: 67px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-25 {
+  position: absolute;
+  width: 431px;
+  top: 143px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .rectangle-12 {
+  position: absolute;
+  width: 431px;
+  height: 40px;
+  top: 211px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-26 {
+  position: absolute;
+  width: 431px;
+  top: 287px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .rectangle-13 {
+  position: absolute;
+  width: 431px;
+  height: 111px;
+  top: 355px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-27 {
+  position: absolute;
+  width: 431px;
+  top: 502px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .rectangle-14 {
+  position: absolute;
+  width: 431px;
+  height: 40px;
+  top: 570px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .frame-15 {
+  position: absolute;
+  width: 115px;
+  height: 39px;
+  top: 647px;
+  left: 0;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-28 {
+  position: absolute;
+  top: 6px;
+  left: 32px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .send {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 12px;
+  left: 85px;
+  background-image: url(./img/clip-path-group.png);
+  background-size: 100% 100%;
+}
+
+.MOCKUP-DESKTOP .FOOTER {
+  position: absolute;
+  width: 1250px;
+  height: 329px;
+  top: 7226px;
+  left: 78px;
+  background-color: transparent;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-29 {
+  top: -1px;
+  left: 42px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 36px;
+  position: absolute;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .frame-16 {
+  position: absolute;
+  width: 192px;
+  height: 180px;
+  top: 74px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-30 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-31 {
+  position: absolute;
+  width: 192px;
+  top: 27px;
+  left: 0;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-32 {
+  position: absolute;
+  top: 116px;
+  left: 0;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-33 {
+  position: absolute;
+  top: 162px;
+  left: 1px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .frame-17 {
+  position: absolute;
+  width: 101px;
+  height: 219px;
+  top: 76px;
+  left: 307px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-34 {
+  position: absolute;
+  top: -1px;
+  left: 1px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-35 {
+  position: absolute;
+  top: 27px;
+  left: 1px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-36 {
+  position: absolute;
+  top: 66px;
+  left: 1px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-37 {
+  position: absolute;
+  top: 118px;
+  left: 1px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-38 {
+  position: absolute;
+  top: 145px;
+  left: 1px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-39 {
+  top: 173px;
+  left: 0;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 14px;
+  position: absolute;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-40 {
+  position: absolute;
+  top: 201px;
+  left: 0;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .frame-18 {
+  position: absolute;
+  width: 108px;
+  height: 67px;
+  top: 74px;
+  left: 1142px;
+}
+
+.MOCKUP-DESKTOP .syarat-privasi {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .frame-19 {
+  position: absolute;
+  width: 409px;
+  height: 255px;
+  top: 74px;
+  left: 601px;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-41 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-42 {
+  position: absolute;
+  top: 203px;
+  left: 26px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .text-wrapper-43 {
+  position: absolute;
+  top: 233px;
+  left: 26px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MOCKUP-DESKTOP .mdi-instagram {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 203px;
+  left: 0;
+}
+
+.MOCKUP-DESKTOP .ic-baseline-facebook {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 235px;
+  left: 0;
+}
