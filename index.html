@@ -1,231 +1,363 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="MOCKUP-DESKTOP">
-      <div class="div">
-        <div class="NAVBAR">
-          <div class="text-wrapper">GEBE</div>
-          <div class="navbar">
-            <div class="text-wrapper-2">HOME</div>
-            <div class="text-wrapper-3">ABOUT</div>
-            <div class="text-wrapper-3">KEAHLIAN</div>
-            <div class="text-wrapper-3">MENGAPA&nbsp;&nbsp;MEMPERKERJAKAN SAYA</div>
-            <div class="text-wrapper-3">KONTAK</div>
-          </div>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GEBE - Rhafi Gunawan Bijaksana</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@500;600&family=Michroma&family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">GEBE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">KEAHLIAN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hire">MENGAPA MEMPERKERJAKAN SAYA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">KONTAK</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 home-content">
+          <h1>Halo, Saya Rhafi!</h1>
+          <p class="lead">
+            Saya adalah seorang desainer produk yang bersemangat untuk memecahkan masalah dan menciptakan
+            pengalaman pengguna yang menyenangkan. Selamat datang di dunia desain saya!
+          </p>
+          <a href="#portfolio" class="portfolio-btn">
+            Jelajahi Portofolio Saya
+            <img src="img/mingcute-arrow-right-fill.svg" alt="Arrow" width="16">
+          </a>
         </div>
-        <div class="HOME">
-          <div class="frame">
-            <div class="text-wrapper-4">Halo, Saya Rhafi!</div>
-            <p class="saya-adalah-seorang">
-              Saya adalah seorang desainer produk yang bersemangat<br />untuk memecahkan masalah dan menciptakan<br />pengalaman
-              pengguna yang menyenangkan.<br />Selamat datang di dunia desain saya!
-            </p>
-            <div class="jelajahi-portofolio">
-              <div class="text-wrapper-5">Jelajahi Portofolio Saya</div>
-              <img class="mingcute-arrow-right" src="img/mingcute-arrow-right-fill.svg" />
-            </div>
+        <div class="col-lg-6">
+          <div class="profile-images position-relative">
+            <img src="img/rectangle-1.png" class="rectangle-main position-absolute" alt="Main Profile">
+            <img src="img/rectangle-3.png" class="rectangle-top position-absolute" alt="Top Profile">
+            <img src="img/rectangle-2.png" class="rectangle-bottom position-absolute" alt="Bottom Profile">
+            <div class="text-gebe position-absolute">GEBE</div>
+            <div class="text-rhafi position-absolute">RHAFI</div>
+            <img src="img/line-1.svg" class="position-absolute" style="width: 124px; height: 2px; top: 69px; left: 5px;" alt="Line">
           </div>
-          <div class="frame-2">
-            <div class="overlap">
-              <div class="overlap-group">
-                <img class="rectangle" src="img/rectangle-1.png" />
-                <div class="text-wrapper-6">GEBE</div>
-              </div>
-              <div class="overlap-2">
-                <img class="img" src="img/rectangle-2.png" />
-                <div class="text-wrapper-7">RHAFI</div>
-              </div>
-              <img class="rectangle-2" src="img/rectangle-3.png" />
-              <img class="line" src="img/line-1.svg" />
-            </div>
-            <div class="text-wrapper-8">RHAFI GUNAWAN BIJAKSANA</div>
-          </div>
+          <h4 class="profile-name">RHAFI GUNAWAN BIJAKSANA</h4>
         </div>
-        <div class="ABOUT">
-          <div class="text-wrapper-9">ABOUT ME</div>
-          <p class="p">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">ABOUT ME</h2>
+      <div class="row">
+        <div class="col-lg-6 about-content">
+          <p>
             Saya adalah seorang desainer visual yang lahir dan besar di Tasikmalaya, kota yang kaya akan seni dan
             budaya. Tepatnya, saya lahir pada tanggal 9 September 2004. Kecintaan saya pada estetika dan kemampuan untuk
             memecahkan masalah melalui desain telah membawa saya ke dunia yang menarik ini.
           </p>
-          <p class="text-wrapper-10">
+        </div>
+        <div class="col-lg-6 about-images">
+          <img src="img/rectangle-12.png" class="img-fluid mb-4" alt="About 1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 about-images">
+          <img src="img/rectangle-13.png" class="img-fluid" alt="About 2">
+        </div>
+        <div class="col-lg-6 about-content">
+          <p>
             Tumbuh di Tasikmalaya, saya dikelilingi oleh kerajinan tangan tradisional, batik yang indah, dan keindahan
             alam yang menginspirasi. Pengalaman ini menanamkan apresiasi mendalam terhadap detail, harmoni visual, dan
             kekuatan desain dalam bercerita. Dari sini, ketertarikan saya pada desain terus berkembang, mendorong saya
             untuk terus belajar dan bereksperimen dengan berbagai gaya dan teknik.
           </p>
-          <img class="rectangle-3" src="img/rectangle-12.png" />
-          <img class="rectangle-4" src="img/rectangle-13.png" />
         </div>
-        <div class="KEAHLIAN">
-          <img class="rectangle-5" src="img/rectangle-14.png" />
-          <img class="rectangle-6" src="img/rectangle-15.png" />
-          <img class="rectangle-7" src="img/rectangle-16.png" />
-          <div class="frame-3">
-            <div class="text-wrapper-11">App Development</div>
-            <p class="text-wrapper-12">
-              Menguasai pengembangan aplikasi mobile (iOS &amp; Android) dengan tingkat keahlian 85%. Terbiasa dengan
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title">KEAHLIAN</h2>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="skill-card">
+            <h3>App Development</h3>
+            <p>
+              Menguasai pengembangan aplikasi mobile (iOS & Android) dengan tingkat keahlian 85%. Terbiasa dengan
               berbagai framework, bahasa pemrograman, dan siklus pengembangan aplikasi.
             </p>
           </div>
-          <div class="frame-4">
-            <div class="text-wrapper-11">Web Design</div>
-            <p class="text-wrapper-12">
-              Ahli dalam menciptakan desain website yang menarik dan responsif dengan tingkat penguasaan 90%. Memahami
+          <div class="skill-card">
+            <h3>Web Design</h3>
+            <p>
+              Ahli dalam menciptakan desain website yang menarik dan responsif dengan tingkat penguasaan 90%. Memahami
               prinsip desain web modern, tren terkini, dan praktik terbaik.
             </p>
           </div>
-          <div class="frame-5">
-            <div class="text-wrapper-11">UI/UX Design</div>
-            <p class="text-wrapper-12">
+          <div class="skill-card">
+            <h3>UI/UX Design</h3>
+            <p>
               Berpengalaman dalam merancang antarmuka pengguna (UI) yang intuitif dan pengalaman pengguna (UX) yang
-              optimal dengan tingkat keahlian 80%. Familiar dengan riset pengguna, pembuatan wireframe, prototipe, dan
+              optimal dengan tingkat keahlian 80%. Familiar dengan riset pengguna, pembuatan wireframe, prototipe, dan
               pengujian kegunaan.
             </p>
           </div>
-          <div class="text-wrapper-13">KEAHLIAN</div>
         </div>
-        <div class="MENGAPA">
-          <p class="text-wrapper-14">Mengapa GEBE Pilihan Terbaik untuk Proyek Anda</p>
-          <div class="text-wrapper-15">MENGAPA MEMPERKERJAKAN SAYA</div>
-          <p class="pengalaman-keahlian">
-            <span class="span">Pengalaman &amp; Keahlian:<br /></span>
-            <span class="text-wrapper-16"
-              >Pengalaman 10 tahun dalam IT, mengerjakan proyek Aplikasi Perkantoran untuk klien seperti Raffi Ahmad.<br />Keahlian
-              mendalam dalam Web Designer memastikan hasil berkualitas tinggi dan solusi inovatif.&#34;<br /><br
-            /></span>
-            <span class="span"><br />Pendekatan yang Berpusat pada Klien:<br /></span>
-            <span class="text-wrapper-16"
-              >Memahami kebutuhan unik Anda dan memberikan solusi yang disesuaikan untuk mencapai tujuan bisnis Anda.<br />Komunikasi
-              transparan dan kolaborasi erat sepanjang proses proyek.<br /><br /><br
-            /></span>
-            <span class="span">Rekam Jejak yang Terbukti:<br /></span>
-            <span class="text-wrapper-16"
-              >Telah berhasil menyelesaikan 7 proyek dengan tingkat kepuasan klien 80%.&#34;<br />Fokus pada pengiriman
-              tepat waktu dan sesuai anggaran.</span
-            >
+        <div class="col-lg-4 skill-images">
+          <img src="img/rectangle-14.png" class="img-fluid mb-4" alt="Skill 1">
+          <img src="img/rectangle-15.png" class="img-fluid mb-4" alt="Skill 2">
+          <img src="img/rectangle-16.png" class="img-fluid" alt="Skill 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Hire Me Section -->
+  <section id="hire" class="hire-section">
+    <div class="container">
+      <h2 class="section-title">MENGAPA MEMPERKERJAKAN SAYA</h2>
+      <div class="row">
+        <div class="col-lg-6 hire-content">
+          <h2>Mengapa GEBE Pilihan Terbaik untuk Proyek Anda</h2>
+          <p>
+            <strong>Pengalaman & Keahlian:</strong><br>
+            <span class="small-text">Pengalaman 10 tahun dalam IT, mengerjakan proyek Aplikasi Perkantoran untuk klien seperti Raffi Ahmad.<br>
+            Keahlian mendalam dalam Web Designer memastikan hasil berkualitas tinggi dan solusi inovatif.</span><br><br>
+            
+            <strong>Pendekatan yang Berpusat pada Klien:</strong><br>
+            <span class="small-text">Memahami kebutuhan unik Anda dan memberikan solusi yang disesuaikan untuk mencapai tujuan bisnis Anda.<br>
+            Komunikasi transparan dan kolaborasi erat sepanjang proses proyek.</span><br><br>
+            
+            <strong>Rekam Jejak yang Terbukti:</strong><br>
+            <span class="small-text">Telah berhasil menyelesaikan 7 proyek dengan tingkat kepuasan klien 80%.<br>
+            Fokus pada pengiriman tepat waktu dan sesuai anggaran.</span>
           </p>
-          <p class="text-wrapper-17">
+          <p class="mb-4 small-text">
             Hubungi saya hari ini untuk mendiskusikan proyek Anda dan bagaimana saya dapat membantu Anda mencapai
             kesuksesan.
           </p>
-          <div class="frame-6">
-            <div class="text-wrapper-5">Jadwalkan Konsultasi Gratis</div>
-            <img class="consultation" src="img/consultation-1.svg" />
-          </div>
-          <img class="rectangle-8" src="img/rectangle-6.png" />
-          <img class="rectangle-9" src="img/rectangle-5.png" />
-          <img class="rectangle-10" src="img/rectangle-4.png" />
+          <a href="#contact" class="consultation-btn">
+            Jadwalkan Konsultasi Gratis
+            <img src="img/consultation-1.svg" alt="Consultation" width="20">
+          </a>
         </div>
-        <div class="TESTIMONI-CLIENT">
-          <div class="text-wrapper-18">TESTIMONI CLIENT</div>
-          <p class="kami-sangat-terkesan">
-            &#34;Kami sangat terkesan dengan kecepatan dan profesionalisme GEBE dalam menyelesaikan proyek ini. Mereka
-            memahami kebutuhan kami dengan cepat dan memberikan solusi yang efektif. Komunikasi yang lancar dan hasil
-            yang memuaskan membuat kami sangat merekomendasikan layanan mereka.&#34;<br />Pesan: Kecepatan,
-            profesionalisme, pemahaman kebutuhan, komunikasi, hasil memuaskan.<br />Nama Klien: Budi Santoso<br />Perusahaan/Organisasi
-            Klien: PT Maju Bersama
-          </p>
-          <p class="pelayanan-yang">
-            &#34;Pelayanan yang diberikan oleh GEBE sangat memuaskan. Mereka selalu responsif terhadap pertanyaan dan
-            permintaan kami, serta memberikan dukungan yang sangat baik selama proses pengerjaan proyek. Kami merasa
-            sangat dihargai sebagai klien.&#34;<br />Pesan: Pelayanan memuaskan, responsif, dukungan baik, merasa
-            dihargai.<br />Nama Klien: Ani Kurniawati<br />Perusahaan/Organisasi Klien: Organisasi Sosial Peduli Sesama
-          </p>
-          <p class="GEBE-memberikan">
-            &#34;GEBE memberikan solusi yang sangat kreatif dan inovatif untuk masalah yang kami hadapi. Mereka tidak
-            hanya menyelesaikan tugas, tetapi juga memberikan ide-ide baru yang sangat membantu pengembangan bisnis
-            kami. Kami sangat merekomendasikan mereka sebagai partner yang strategis.&#34;<br />Pesan: Solusi kreatif,
-            inovatif, ide-ide baru, pengembangan bisnis, partner strategis.<br />Nama Klien: David Lee<br />Perusahaan/Organisasi
-            Klien: Startup Digital Inovasi
-          </p>
-          <p class="kualitas-pekerjaan">
-            &#34;Kualitas pekerjaan yang dihasilkan oleh GEBE sangat luar biasa. Mereka memperhatikan detail dan
-            memberikan sentuhan personal yang membuat proyek kami menjadi lebih istimewa. Kami sangat puas dengan
-            hasilnya dan pasti akan menggunakan jasa mereka lagi di masa depan.&#34;<br />Pesan: Kualitas, detail,
-            sentuhan personal, kepuasan, niat untuk menggunakan jasa lagi.<br />Nama Klien: Sarah Wijaya<br />Perusahaan/Organisasi
-            Klien: Yayasan Cita Bangsa
-          </p>
-        </div>
-        <div class="PORTFOLIO">
-          <div class="text-wrapper-19">Portfolio</div>
-          <div class="frame-7">
-            <img class="figma" src="img/figma-1.png" />
-            <img class="laravel-framework" src="img/laravel-framework-1.png" />
-            <img class="react-native" src="img/react-native-1.png" />
-          </div>
-          <div class="frame-8">
-            <div class="frame-9">
-              <div class="text-wrapper-20">Figma</div>
-              <div class="div-wrapper"><div class="text-wrapper-21">Lihat Projek Saya</div></div>
+        <div class="col-lg-6 hire-images">
+          <img src="img/rectangle-6.png" class="img-fluid mb-4" alt="Work 1">
+          <div class="row">
+            <div class="col-6">
+              <img src="img/rectangle-5.png" class="img-fluid" alt="Work 2">
             </div>
-            <div class="frame-10">
-              <div class="text-wrapper-20">Laravel</div>
-              <div class="frame-11"><div class="text-wrapper-21">Lihat Projek Saya</div></div>
-            </div>
-            <div class="frame-12">
-              <div class="frame-13"><div class="text-wrapper-21">Lihat Projek Saya</div></div>
-              <div class="text-wrapper-22">React Native</div>
+            <div class="col-6">
+              <img src="img/rectangle-4.png" class="img-fluid" alt="Work 3">
             </div>
           </div>
         </div>
-        <div class="KONTAK">
-          <div class="text-wrapper-23">KONTAK</div>
-          <div class="frame-14">
-            <div class="text-wrapper-24">NAMA</div>
-            <div class="rectangle-11"></div>
-            <div class="text-wrapper-25">EMAIL</div>
-            <div class="rectangle-12"></div>
-            <div class="text-wrapper-26">SUBJEK</div>
-            <div class="rectangle-13"></div>
-            <div class="text-wrapper-27">PESAN</div>
-            <div class="rectangle-14"></div>
-            <div class="frame-15">
-              <div class="text-wrapper-28">Kirim</div>
-              <div class="send"></div>
-            </div>
-          </div>
-        </div>
-        <footer class="FOOTER">
-          <div class="text-wrapper-29">GEBE</div>
-          <div class="frame-16">
-            <div class="text-wrapper-30">Tentang Kami</div>
-            <p class="text-wrapper-31">
-              “Kami membantu bisnis berkembang dengan solusi digital yang inovatif dan terukur.”
-            </p>
-            <div class="text-wrapper-32">Privasi</div>
-            <div class="text-wrapper-33">Penggunaan</div>
-          </div>
-          <div class="frame-17">
-            <div class="text-wrapper-34">Tautan</div>
-            <div class="text-wrapper-35">Beranda</div>
-            <div class="text-wrapper-36">Tentang Kami</div>
-            <div class="text-wrapper-37">Layanan</div>
-            <div class="text-wrapper-38">Blog</div>
-            <div class="text-wrapper-39">Kontak</div>
-            <div class="text-wrapper-40">FAQ</div>
-          </div>
-          <div class="frame-18">
-            <div class="text-wrapper-30">Kebijakan</div>
-            <div class="syarat-privasi">Syarat &amp; Privasi</div>
-          </div>
-          <div class="frame-19">
-            <div class="text-wrapper-30">Kontak Kami</div>
-            <p class="text-wrapper-41">Alamat: Jl.Raya Cikunir, Kec,Singaparna, Kab. Tasikmalaya</p>
-            <div class="text-wrapper-32">Nomor Telepon: 081312132075</div>
-            <div class="text-wrapper-39">Email:gbrhafi@gmail.com</div>
-            <div class="text-wrapper-42">@rhafigb</div>
-            <div class="text-wrapper-43">Rhafi Gunawan</div>
-            <img class="mdi-instagram" src="img/mdi-instagram.svg" />
-            <img class="ic-baseline-facebook" src="img/ic-baseline-facebook.svg" />
-          </div>
-        </footer>
       </div>
     </div>
-  </body>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="container">
+      <h2 class="section-title">TESTIMONI CLIENT</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="testimonial-card">
+            <p>"Kami sangat terkesan dengan kecepatan dan profesionalisme GEBE dalam menyelesaikan proyek ini. Mereka
+              memahami kebutuhan kami dengan cepat dan memberikan solusi yang efektif. Komunikasi yang lancar dan hasil
+              yang memuaskan membuat kami sangat merekomendasikan layanan mereka."</p>
+            <p><strong>Budi Santoso</strong></p>
+            <p>PT Maju Bersama</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial-card">
+            <p>"Pelayanan yang diberikan oleh GEBE sangat memuaskan. Mereka selalu responsif terhadap pertanyaan dan
+              permintaan kami, serta memberikan dukungan yang sangat baik selama proses pengerjaan proyek. Kami merasa
+              sangat dihargai sebagai klien."</p>
+            <p><strong>Ani Kurniawati</strong></p>
+            <p>Organisasi Sosial Peduli Sesama</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial-card">
+            <p>"GEBE memberikan solusi yang sangat kreatif dan inovatif untuk masalah yang kami hadapi. Mereka tidak
+              hanya menyelesaikan tugas, tetapi juga memberikan ide-ide baru yang sangat membantu pengembangan bisnis
+              kami. Kami sangat merekomendasikan mereka sebagai partner yang strategis."</p>
+            <p><strong>David Lee</strong></p>
+            <p>Startup Digital Inovasi</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial-card">
+            <p>"Kualitas pekerjaan yang dihasilkan oleh GEBE sangat luar biasa. Mereka memperhatikan detail dan
+              memberikan sentuhan personal yang membuat proyek kami menjadi lebih istimewa. Kami sangat puas dengan
+              hasilnya dan pasti akan menggunakan jasa mereka lagi di masa depan."</p>
+            <p><strong>Sarah Wijaya</strong></p>
+            <p>Yayasan Cita Bangsa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="row portfolio-images justify-content-center">
+        <div class="col-md-4 text-center">
+          <img src="img/figma-1.png" class="img-fluid" alt="Figma">
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/laravel-framework-1.png" class="img-fluid" alt="Laravel">
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/react-native-1.png" class="img-fluid" alt="React Native">
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4 portfolio-item">
+          <h3>Figma</h3>
+          <a href="#" class="view-project-btn">Lihat Projek Saya</a>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <h3>Laravel</h3>
+          <a href="#" class="view-project-btn">Lihat Projek Saya</a>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <h3>React Native</h3>
+          <a href="#" class="view-project-btn">Lihat Projek Saya</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title text-center">KONTAK</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <form id="contactForm" class="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">NAMA</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">EMAIL</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">SUBJEK</label>
+              <input type="text" class="form-control" id="subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">PESAN</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="send-btn">
+              Kirim
+              <img src="img/clip-path-group.png" alt="Send" width="15" height="15">
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 mb-4">
+          <h5 class="footer-brand">GEBE</h5>
+          <p>"Kami membantu bisnis berkembang dengan solusi digital yang inovatif dan terukur."</p>
+          <div class="d-flex">
+            <a href="#" class="me-3">Privasi</a>
+            <a href="#">Penggunaan</a>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <h5>Tautan</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#home">Beranda</a></li>
+            <li class="mb-2"><a href="#about">Tentang Kami</a></li>
+            <li class="mb-2"><a href="#skills">Layanan</a></li>
+            <li class="mb-2"><a href="#">Blog</a></li>
+            <li class="mb-2"><a href="#contact">Kontak</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <h5>Kebijakan</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Syarat & Privasi</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <h5>Kontak Kami</h5>
+          <p>Alamat: Jl.Raya Cikunir, Kec,Singaparna, Kab. Tasikmalaya</p>
+          <p>Nomor Telepon: 081312132075</p>
+          <p>Email: gbrhafi@gmail.com</p>
+          <div class="d-flex align-items-center mt-3">
+            <img src="img/mdi-instagram.svg" class="social-icon" alt="Instagram">
+            <span>@rhafigb</span>
+          </div>
+          <div class="d-flex align-items-center">
+            <img src="img/ic-baseline-facebook.svg" class="social-icon" alt="Facebook">
+            <span>Rhafi Gunawan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- AOS Animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
 </html>
